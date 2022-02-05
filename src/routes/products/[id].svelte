@@ -1,5 +1,16 @@
 <script>
+	import Accordion from "$lib/Accordion.svelte";
 	import Tabs from "$lib/Tabs.svelte";
+
+	let isLiked = false;
+    let element;
+
+    const toggleLike = () => {
+        isLiked = !isLiked
+        console.log(isLiked)
+        const iconString = isLiked ? 'icon-heart' : 'icon-heart-outlined';
+        element.querySelector("use").setAttribute('href', `/icons.svg#${iconString}`)
+    };
 
 	function decrement(e) {
 		const btn = e.target.parentNode.parentElement.querySelector(
@@ -20,25 +31,6 @@
 		value++;
 		target.value = value;
 	}
-
-//   let decrementButtons;
-//   let incrementButtons;
-
-//   decrementButtons = document.querySelectorAll(
-//     `button[data-action="decrement"]`
-//   );
-
-//   incrementButtons = document.querySelectorAll(
-//     `button[data-action="increment"]`
-//   );
-
-  
-//   incrementButtons.addEventListener("click", decrement);
-
-//   incrementButtons.forEach(btn => {
-//     btn.addEventListener("click", increment);
-//   });
-
 </script>
 
 <section class="w-screen flex lg:flex-row flex-col px-10">
@@ -129,7 +121,7 @@
 </section>
 <Tabs />
 <section class="w-screen bg-gray-50 p-10">
-	<h2>Customers' Reviews</h2>
+	<h2 class="text-2xl pb-4">Customers' Reviews</h2>
 	<div class="w-full flex space-x-3">
 		<section class="flex-1 space-y-2 px-5 bg-white">
 			<article class="w-full text-left p-3 rounded-md">
@@ -193,7 +185,7 @@
 			</article>
 		</section>
 		<div class="w-[25rem] h-[50%]">
-			<div class="w-[360px] h-[253px] bg-white flex items-center justify-center">
+			<div class="w-[360px] h-[253px] bg-white shadow-md mb-2 flex items-center justify-center">
 				<div class="text-center">
 					<h4 class="mb-5">
 						<span class="text-2xl font-bold">4.0</span>
@@ -213,9 +205,114 @@
 					</div>
 				</div>
 			</div>
+			<div class="w-[360px] h-[253px] p-2 bg-white shadow-md">
+				<h4 class="text-gray-500">Add comments</h4>
+				<textarea rows="5" class="w-full p-2 border border-gray-200">
+					Type here
+				</textarea>
+				<button class="w-full border text-gray-500 border-gray-200 py-2 mt-3">Submit</button>
+			</div>
 		</div>
 	</div>
 </section>
+<Accordion />
+
+<section class="my-10 px-10 w-screen">
+    <div class="flex flex-col text-left justify-start items-start">
+      <span class="text-green-600 text-2xl font-bold">You Might Also Like</span>
+      <h3 class="mt-2 text-lg font-semibold text-gray-400">
+        Other Related Products.
+      </h3>
+    </div>
+
+
+    <div class="grid lg:grid-cols-4 md:grid-cols-3 justify-items-center mt-10 text-center">
+        <article class="feature group h-[344px] relative text-left p-3 bg-white shadow-md">
+            <div class="relative h-[60%]">
+                <img
+                class="m-auto w-full h-full"
+                src="/groceries/date.png"
+                alt="E Farm"
+                />
+                <div class="bg-black absolute w-full h-14 bottom-0 flex items-center justify-center group-hover:opacity-70 text-lg opacity-0 text-white">
+                    <button>Add To Cart</button>
+                </div>
+            </div>
+            <div on:click={toggleLike} class="bg-white cursor-pointer absolute top-4 right-5 p-2 rounded-full opacity-0 group-hover:opacity-70">
+                <svg bind:this={element} class="likes__icon">
+                    <use href="/icons.svg#icon-heart-outlined"></use>
+                </svg>
+            </div>
+            <img class="absolute top-0 -left-0" src="/percentage.png" alt="Percentage taken"/>
+            <h3 class="">
+                <h5 class="py-2 font-medium">0.1kg teaspoonful Almond Seed</h5>
+                <h5 class="text-gray-600 font-extralight">A one-line sub-text should be...</h5>
+            </h3>
+            <div class="flex space-x-1 py-3">
+                <img src="/images/rating-star.svg" alt=""/>
+                <img src="/images/rating-star.svg" alt=""/>
+                <img src="/images/rating-star.svg" alt=""/>
+                <img src="/images/rating-star.svg" alt=""/>
+                <img src="/images/rating-star-6.svg" alt=""/>
+            </div>
+            <span class="font-bold">
+                <span>N400.00</span>
+                <span>/kg</span>
+                <span class="text-red-400 line-through ml-4">N550.00</span>
+            </span>
+        </article>
+    </div>
+
+</section>
+
+<section class="my-10 px-10 w-screen">
+    <div class="flex flex-col text-left justify-start items-start">
+      <span class="text-green-600 text-2xl font-bold">Recently Viewed</span>
+      <h3 class="mt-2 text-lg font-semibold text-gray-400">
+        Recently Viewed Items.
+      </h3>
+    </div>
+
+
+    <div class="grid lg:grid-cols-4 md:grid-cols-3 justify-items-center mt-10 text-center">
+        <article class="feature group h-[344px] relative text-left p-3 bg-white shadow-md">
+            <div class="relative h-[60%]">
+                <img
+                class="m-auto w-full h-full"
+                src="/groceries/date.png"
+                alt="E Farm"
+                />
+                <div class="bg-black absolute w-full h-14 bottom-0 flex items-center justify-center group-hover:opacity-70 text-lg opacity-0 text-white">
+                    <button>Add To Cart</button>
+                </div>
+            </div>
+            <div on:click={toggleLike} class="bg-white cursor-pointer absolute top-4 right-5 p-2 rounded-full opacity-0 group-hover:opacity-70">
+                <svg bind:this={element} class="likes__icon">
+                    <use href="/icons.svg#icon-heart-outlined"></use>
+                </svg>
+            </div>
+            <img class="absolute top-0 -left-0" src="/percentage.png" alt="Percentage taken"/>
+            <h3 class="">
+                <h5 class="py-2 font-medium">0.1kg teaspoonful Almond Seed</h5>
+                <h5 class="text-gray-600 font-extralight">A one-line sub-text should be...</h5>
+            </h3>
+            <div class="flex space-x-1 py-3">
+                <img src="/images/rating-star.svg" alt=""/>
+                <img src="/images/rating-star.svg" alt=""/>
+                <img src="/images/rating-star.svg" alt=""/>
+                <img src="/images/rating-star.svg" alt=""/>
+                <img src="/images/rating-star-6.svg" alt=""/>
+            </div>
+            <span class="font-bold">
+                <span>N400.00</span>
+                <span>/kg</span>
+                <span class="text-red-400 line-through ml-4">N550.00</span>
+            </span>
+        </article>
+    </div>
+
+</section>
+
 <style>
 	input[type='number']::-webkit-inner-spin-button,
 	input[type='number']::-webkit-outer-spin-button {
@@ -230,4 +327,10 @@
 	.custom-number-input button:focus {
 	  outline: none !important;
 	}
+
+	.likes__icon {
+        fill: #F59A83;
+        height: 1.5rem;
+        width: 1.5rem; 
+    }
 </style>
