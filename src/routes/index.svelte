@@ -1,7 +1,7 @@
 
 <script>
 	import Commerce from "$lib/Commerce.svelte";
-import CustomerReviews from "$lib/CustomerReviews.svelte";
+	import CustomerReviews from "$lib/CustomerReviews.svelte";
 	import Farms from "$lib/Farms.svelte";
 	import GetChawBox from "$lib/GetChawBox.svelte";
 	import Header from "$lib/Header.svelte";
