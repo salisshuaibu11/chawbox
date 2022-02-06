@@ -1,15 +1,18 @@
 <script>
-    import TopGroceries from "../../components/TopGroceries.svelte";
-    import DealsOfTheDay from "../../components/DealsOfTheDay.svelte";
-    import FeaturedProducts from "../../components/FeaturedProducts.svelte";
-    import ExclusiveProducts from "../../components/ExclusiveProducts.svelte";
+    import TopGroceries from "../../components/Products.svelte";
+    import DealsOfTheDay from "../../components/Products.svelte";
+    import FeaturedProducts from "../../components/Products.svelte";
+    import ExclusiveProducts from "../../components/Products.svelte";
 </script>
 
 <svelte:head>
     <title>Products</title>
 </svelte:head>
 
-<DealsOfTheDay />
-<TopGroceries />
-<FeaturedProducts />
-<ExclusiveProducts />
+<DealsOfTheDay title="Deals of the day" subTitle="Here’s where Chaw members are having the most luck."/>
+<TopGroceries title="Top Groceries" subTitle="Here’s where Chaw members are having the most luck.
+" />
+<FeaturedProducts title="Featured Products" subTitle="Here’s where Chaw members are having the most luck.
+"/>
+<ExclusiveProducts title="Exclusive Products" subTitle="Here’s where Chaw members are having the most luck.
+" />

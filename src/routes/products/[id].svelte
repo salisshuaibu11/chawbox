@@ -314,20 +314,6 @@
 </section>
 
 <style>
-	input[type='number']::-webkit-inner-spin-button,
-	input[type='number']::-webkit-outer-spin-button {
-	  -webkit-appearance: none;
-	  margin: 0;
-	}
-  
-	.custom-number-input input:focus {
-	  outline: none !important;
-	}
-  
-	.custom-number-input button:focus {
-	  outline: none !important;
-	}
-
 	.likes__icon {
         fill: #F59A83;
         height: 1.5rem;

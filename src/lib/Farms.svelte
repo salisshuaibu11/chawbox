@@ -1,4 +1,4 @@
-<section class="mt-24 w-screen bg-orange-100 w-screen pb-80">
+<section class="mt-24 w-screen bg-orange-100 pb-80">
 	<div class="w-full sm:w-5/6 md:w-3/4 lg:w-2/3 mx-auto my-12 p-4 md:p-12">
 		<div class="flex m-auto text-center flex-col w-2/4 items-center">
             <span class="text-green-600 text-4xl font-black">E-Farm</span>

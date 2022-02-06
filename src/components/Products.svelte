@@ -2,6 +2,9 @@
     let isLiked = false;
     let element;
 
+    export let title = "Featured Products"; 
+    export let subTitle = "Here’s where Chaw members are having the most luck"
+
     const toggleLike = () => {
         isLiked = !isLiked
         console.log(isLiked)
@@ -11,11 +14,11 @@
 
 </script>
 
-<section class="my-10 px-10 w-screen">
+<section class="my-12 lg:px-28 px-0 w-screen">
     <div class="flex flex-col text-left justify-start items-start">
-      <span class="text-green-600 text-2xl font-bold">Deals of the day</span>
+      <span class="text-green-600 text-2xl font-bold">{title}</span>
       <h3 class="mt-2 text-lg font-semibold text-gray-400">
-        Here’s where Chaw members are having the most luck.
+        {subTitle}
       </h3>
     </div>
 
