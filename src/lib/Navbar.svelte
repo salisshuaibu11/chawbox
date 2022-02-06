@@ -1,19 +1,19 @@
 <nav class="flex justify-between items-center">
-    <ul class="flex space-x-5">
+    <ul class="hidden md:flex space-x-5">
         <li>
-            <a href="/about" class="text-white">About Us</a>
+            <a href="/about" class="text-white font-bold text-lg">About Us</a>
         </li>
         <li>
-            <a href="/about" class="text-white">Our Services</a>
+            <a href="/about" class="text-white font-bold text-lg">Our Services</a>
         </li>
         <li>
-            <a href="/about" class="text-white">Blog</a>
+            <a href="/about" class="text-white font-bold text-lg">Blog</a>
         </li>
         <li>
-            <a href="/about" class="text-white">Contact</a>
+            <a href="/about" class="text-white font-bold text-lg">Contact</a>
         </li>
     </ul>
-    <div class="flex items-center space-x-10 text-white">
+    <div class="flex items-center space-x-10 text-white font-bold text-lg">
         <button>
             <a href="/login">Login</a>
         </button>

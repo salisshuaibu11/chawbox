@@ -4,10 +4,10 @@
 
 <section class="mt-3 h-full flex flex-col items-center justify-center">
     <div class="text-center tracking-wide">
-        <h1 class="text-orange-500 text-4xl">Chawbox</h1>
+        <img src="/logo-orange.png" alt="logo" class="mb-4 mx-auto text-center"/>
         <p class="text-white text-2xl">Your secured haven to shop anything Groceries and Farm essentials</p>
     </div>
-    <div class="w-[906px] mt-5 flex flex-col">
+    <div class="max-w-[800px] mt-5 flex flex-col">
         <div class="flex flex-col lg:py-0 py-4">
             <div class="flex flex-wrap w-full relative h-15 bg-white items-center rounded mb-4">
                 <div class="flex -mr-px justify-center p-4">
@@ -42,12 +42,12 @@
                 </div>
                 <input
                   type="text"
-                  class="flex-shrink lg:w-full flex-grow leading-normal w-px flex-1 border-0 h-10 px-3 relative self-center font-roboto text-xl outline-none"
+                  class="flex-shrink lg:w-full flex-grow leading-normal w-px min-w-[120px] flex-1 border-0 h-10 px-3 relative self-center font-roboto text-xl outline-none"
                   placeholder="Search Grocery items, Farm essentials and Agricultural commodities"
                 />
                 <div class="flex -mr-px">
                   <span
-                    class="flex items-center leading-normal bg-green-500 border-0 px-4 text-white py-[16px] whitespace-no-wrap"
+                    class="flex items-center rounded-r-lg leading-normal bg-green-500 border-0 px-4 text-white py-[16px] whitespace-no-wrap"
                     >
                     <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g clip-path="url(#clip0_561_5068)">
@@ -75,8 +75,8 @@
                     </span>
                 </div>
             </div>
-            <ul class="flex space-x-5 items-center justify-center text-white">
-                <li class="flex group items-center space-x-1">
+            <ul class="flex flex-wrap mx-auto space-x-5 items-center justify-center text-white">
+                <li class="flex my-2 group items-center space-x-1">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g clip-path="url(#clip0_561_592)">
                         <path d="M18.579 22.259C17.7506 22.259 17.079 21.5874 17.079 20.759C17.079 19.9305 17.7506 19.259 18.579 19.259C19.4074 19.259 20.079 19.9305 20.079 20.759C20.079 21.5874 19.4074 22.259 18.579 22.259Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -95,7 +95,7 @@
                     </svg>
                     <span class="group-hover:text-yellow-500">E-commerce</span>
                 </li>
-                <li class="flex group items-center space-x-1">
+                <li class="flex my-2 group items-center space-x-1">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g clip-path="url(#clip0_561_5017)">
                         <path d="M5.401 8.49902H4.01" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -120,7 +120,7 @@
                         
                     <span class="group-hover:text-yellow-500">E-Farm</span>
                 </li>
-                <li class="flex group items-center space-x-1">
+                <li class="flex my-2 group items-center space-x-1">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g clip-path="url(#clip0_561_5017)">
                         <path d="M5.401 8.49902H4.01" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -145,7 +145,7 @@
                         
                     <span class="group-hover:text-yellow-500">Farm Essential</span>
                 </li>
-                <li class="flex group items-center space-x-1">
+                <li class="flex my-2 group items-center space-x-1">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g clip-path="url(#clip0_561_5043)">
                         <path d="M16.25 14.5C16.2006 14.5 16.1522 14.5147 16.1111 14.5421C16.07 14.5696 16.038 14.6086 16.019 14.6543C16.0001 14.7 15.9952 14.7503 16.0048 14.7988C16.0144 14.8473 16.0383 14.8918 16.0732 14.9268C16.1082 14.9617 16.1527 14.9856 16.2012 14.9952C16.2497 15.0048 16.3 14.9999 16.3457 14.981C16.3914 14.962 16.4304 14.93 16.4579 14.8889C16.4853 14.8478 16.5 14.7994 16.5 14.75C16.5 14.6837 16.4737 14.6201 16.4268 14.5732C16.3799 14.5263 16.3163 14.5 16.25 14.5Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
