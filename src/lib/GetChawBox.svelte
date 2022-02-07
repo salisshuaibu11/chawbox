@@ -31,7 +31,7 @@
         </div>
 
 
-        <div class="grid grid-cols-1 md:grid-cols-3 place-content-center gap-6 mt-12 text-center">
+        <div class="grid grid-cols-1 md:grid-cols-3 place-content-center gap-6 mt-12np text-center">
             <article class="feature text-center">
                 <img
                     class="m-auto"

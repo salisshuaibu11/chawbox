@@ -25,16 +25,16 @@
 
 <section class="w-screen p-10">
 	<h2 class="text-2xl pb-4">Cart(8)</h2>
-	<div class="w-full flex space-x-3">
-		<section class="flex-1 space-y-2">
-            <div class="w-full text-left bg-white p-3 rounded-md shadow-md flex space-x-3 items-center">
+	<div class="w-full md:flex md:justify-start items-start">
+		<section class="w-full md:w-2/3 flex-1 space-y-2 mr-0 md:mr-4">
+            <div class="w-full text-left bg-white p-3 rounded-md shadow border border-gray-200 flex space-x-3 items-center">
                 <input type="checkbox" class="border w-4 h-4 border-gray-50"/>
                 <h5>Select all items(8)</h5>
             </div>
-			<article class="w-full bg-white shadow-md text-left py-5 px-3 flex space-x-2 rounded-md">
+			<article class="w-full bg-white shadow border border-gray-200 text-left py-5 px-3 flex space-x-2 rounded-md">
 				<input type="checkbox" class="border w-4 h-4 border-gray-50"/>
                 <div class="flex space-x-2 items-center">
-                    <div class="w-[169px] h-full">
+                    <div class="w-[150px] h-full mr-4">
                         <img class="w-full h-full rounded-md" src="/groceries.png" alt=""/>
                     </div>
                     <div>
@@ -56,7 +56,7 @@
                                     </button>
                                 </div>
                             </div>
-                            <button class="flex items-center space-x-2">
+                            <button class="flex items-center justify-end space-x-2">
                                 <img src="/icons/delete.svg" alt="Delete Icon"/>
                                 <span class="text-red-500">Delete</span>
                             </button>
@@ -65,13 +65,13 @@
                 </div>
 			</article>
 		</section>
-		<div class="w-[360px]">
-			<div class="w-full bg-white rouned-lg py-2 shadow-md mb-2">
+		<div class="w-full md:w-1/3 mt-12 md:mt-0">
+			<div class="w-full bg-white rounded-lg py-2 shadow border border-gray-200 mb-2">
 				<div class="p-2">
                     <h3 class="text-lg pb-2">Summary</h3>
-                    <hr class="h-1 bg-gray-50"/>
                 </div>
-                <section class="flex p-2 justify-between pt-2">
+                <hr>
+                <section class="flex p-4 justify-between">
                     <div>
                         <p>Sub-total</p>
                         <p class="text-gray-500 font-light">Shipping</p>
@@ -83,11 +83,12 @@
                         <p>N510,000.00</p>
                     </div>
                 </section>
+                <hr/>
                 <section class="pt-3 px-2">
                     <div class="form-group px-2 bg-gray-100 py-4 rounded-md">
-                        <label for="coupon" class="font-medium text-lg">Coupon/Promo Code</label>
-                        <input type="text" class="border w-full my-2 border-gray-50 p-2" name="coupon" id="coupon" placeholder="Enter coupon code" />
-                        <button class="text-center w-full border bg-slate-200 text-gray-700 border-gray-300 py-2 p-2">Apply Coupon</button>
+                        <label for="coupon" class="font-medium text-lg mb-2 font-semibold">Coupon/Promo Code</label>
+                        <input type="text" class="border w-full my-2 border-gray-200 p-3 rounded" name="coupon" id="coupon" placeholder="Enter coupon code" />
+                        <button class="text-center w-full border bg-slate-200 text-gray-700 border-gray-300 py-3 rounded">Apply Coupon</button>
                     </div>
                     <form class="py-4">
                         <div class="flex justify-between items-center">

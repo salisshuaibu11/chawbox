@@ -1,4 +1,4 @@
-<header class="mb-24">
+<header class="mb-24 shadow-b-xl">
 <nav class="bg-white shadow dark:bg-gray-800">
 	<div class="container px-6 py-3 mx-auto">
 		<div class="flex flex-col md:flex-row md:justify-between md:items-center">
