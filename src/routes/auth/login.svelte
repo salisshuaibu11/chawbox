@@ -29,7 +29,7 @@
                         <label for="password" class="block font-bold mb-2 text-lg text-black">Password</label>
                         <input type="password" name="password" id="password" placeholder="Password" class="border rounded-md border-gray-200 p-4 text-gray-600 outline-none block w-full"/>
                         <div class="flex justify-end mt-2">
-                            <a href="#" class="font-normal text-green-700">Forgot Password</a>
+                            <a href="/auth/password-reset" class="font-normal text-green-700">Forgot Password</a>
                         </div>
                     </div>
                     <div class="mt-4 mb-8">
@@ -55,7 +55,7 @@
                         </div>
                     </div>
                     <p class="text-gray-600 font-normal text-center">
-                        Don't have an account yet? <a href="#" class="text-green-800">Create Now..</a>
+                        Don't have an account yet? <a href="/auth/signup" class="text-green-800">Create Now..</a>
                     </p>
                 </form>
             </div>

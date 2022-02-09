@@ -26,7 +26,7 @@
                 </div>
 
                 <p class="text-gray-600 font-normal text-center">
-                    Redirecting to <a href="#" class="text-green-800">Login</a>
+                    Redirecting to <a href="/auth/login" class="text-green-800">Login</a>
                 </p>
             </div>
         </div>

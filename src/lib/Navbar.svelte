@@ -1,13 +1,13 @@
 <nav class="flex justify-between items-center">
     <ul class="hidden md:flex space-x-5">
         <li>
-            <a href="/about" class="text-white font-bold text-lg">About Us</a>
+            <a href="/settings/about" class="text-white font-bold text-lg">About Us</a>
         </li>
         <li>
-            <a href="/about" class="text-white font-bold text-lg">Our Services</a>
+            <a href="/account/services" class="text-white font-bold text-lg">Our Services</a>
         </li>
         <li>
-            <a href="/about" class="text-white font-bold text-lg">Blog</a>
+            <a href="/blog" class="text-white font-bold text-lg">Blog</a>
         </li>
         <li>
             <a href="/about" class="text-white font-bold text-lg">Contact</a>
@@ -15,9 +15,10 @@
     </ul>
     <div class="flex items-center space-x-10 text-white font-bold text-lg">
         <button>
-            <a href="/login">Login</a>
+            <a href="/auth/login">Login</a>
         </button>
-        <button class="border border-white hover:bg-white hover:text-black py-2 px-8">Register</button>
+        <button class="border border-white hover:bg-white hover:text-black py-2 px-8">
+            <a href="/auth/signup">Register</a></button>
     </div>
 </nav>
 

@@ -31,7 +31,7 @@
                         Didn't receive a code? <a href="#" class="text-green-800">Resend code</a>
                     </p>
                     <p class="text-gray-600 font-normal text-center mb-2">
-                        Already have an account? <a href="#" class="text-green-800">Login</a>
+                        Already have an account? <a href="/auth/login" class="text-green-800">Login</a>
                     </p>
                 </form>
             </div>

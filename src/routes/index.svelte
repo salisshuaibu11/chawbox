@@ -5,6 +5,7 @@
 	import GetChawBox from '$lib/GetChawBox.svelte';
 	import Header from '$lib/Header.svelte';
 	import Services from '$lib/Services.svelte';
+	import WhyChawBox from '$lib/WhyChawBox.svelte';
 	import Footer from '../components/Footer.svelte';
 </script>
 
@@ -17,5 +18,6 @@
 <Commerce />
 <Farms />
 <GetChawBox />
+<WhyChawBox />
 <CustomerReviews />
 <Footer />

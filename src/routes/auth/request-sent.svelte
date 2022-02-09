@@ -26,7 +26,7 @@
                         <h3 class="mb-4 text-black font-bold text-xl px-4 pt-6 text-center">Reset Email Sent</h3>
                         <p class="text-gray-600 font-normal text-lg px-4 mb-8 text-center">To complete password reset, please click on the reset password button in the email we sent to example@email.com</p>
                         <p>Dont have an account? <a href="#" class="text-green-800">Create now</a></p>
-                        <p><a href="#" class="text-green-800">Back to login</a></p>
+                        <p><a href="/auth/login" class="text-green-800">Back to login</a></p>
                     </div>
                 </div>
             </div>

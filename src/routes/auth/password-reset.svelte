@@ -31,7 +31,7 @@
                     </div>
 
                     <p class="text-gray-600 font-normal text-center">
-                        Remember your password? <a href="#" class="text-green-800">BAck to login</a>
+                        Remember your password? <a href="/auth/login" class="text-green-800">BAck to login</a>
                     </p>
                 </form>
             </div>

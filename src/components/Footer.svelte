@@ -58,13 +58,13 @@
 
 					<div>
 						<h3 class="text-gray-700 font-bold uppercase dark:text-white">Let Us Help You</h3>
-						<a href="#" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
+						<a href="/account/services" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
 							>Your account</a
 						>
-						<a href="#" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
+						<a href="/account/track-orders" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
 							>Your orders</a
 						>
-						<a href="#" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
+						<a href="/settings/shipping-policy" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
 							>Shipping policy</a
 						>
 						<a href="#" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"

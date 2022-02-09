@@ -6,8 +6,8 @@
 <section class="w-screen -mt-24">
 	<div class="bg-green-50 relative w-screen min-h-[250px] px-4 py-8">
 		<div>
-			<a href="#">Home </a>/
-			<a href="#">Account </a> /
+			<a href="/">Home </a>/
+			<a href="/account/services">Account </a> /
 			<a href="#">Track Orders </a>
 		</div>
 		<div class="flex justify-center items-center mt-12">

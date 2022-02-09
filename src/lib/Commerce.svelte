@@ -9,13 +9,13 @@
 
         <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 place-content-center gap-6 mt-10 text-center">
             <article class="feature h-fit text-left p-3 bg-white shadow-md overflow-hidden">
-                <img
+                <a href="/products/1234"><img
                 class="m-auto w-full"
                 src="/images/commerce/carrot.png"
                 alt="E Farm"
-                />
+                /></a>
                 <p class="text-gray-600 font-extralight">
-                    Freshly stored Broiler Carrot Along with deals, discover trending picks
+                    <a href="/products/1234">Freshly stored Broiler Carrot Along with deals, discover trending picks</a>
                 </p>
                 <div class="flex space-x-1 py-3">
                     <img src="/images/rating-star.svg" alt=""/>
@@ -163,6 +163,7 @@
         </div>
 
         <div class="flex m-auto text-center cursor-pointer space-x-3 justify-center mt-5 w-2/4 items-center">
+            <a href="/products/1234">
             <h4 class="text-xl uppercase font-black">Explore All</h4>
             <h4>
                 <svg class="animate-pulse" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -177,6 +178,7 @@
                     </defs>
                 </svg>
             </h4>
+            </a>
         </div>
     </div>
 </section>

@@ -6,7 +6,7 @@
 				<div>
 					<a
 						class="text-2xl font-bold text-gray-800 transition-colors duration-200 transform dark:text-white lg:text-3xl hover:text-gray-700 dark:hover:text-gray-300"
-						href="#"><img src="/logo.svg" alt="Logo"></a
+						href="/"><img src="/logo.svg" alt="Logo"></a
 					>
 				</div>
 
@@ -55,17 +55,17 @@
 			<div class="items-center md:flex">
 				<div class="flex flex-row mt-2 md:mt-0 md:mx-1">
 					<a class="mx-auto px-4 text-center"
-						href="#">
+						href="/account/wishlist">
 						<i class='far fa-2x fa-heart'></i><br>
 						<span>Wishlist</span></a
 					>
 					<a class="mx-auto px-4 text-center"
-						href="#">
+						href="/account/services">
 						<i class='far fa-2x fa-user'></i><br>
 						<span>Account</span></a
 					>
 					<a class="mx-auto px-4 text-center"
-						href="#"> 
+						href="/cart"> 
 						<i class='fa fa-2x fa-shopping-cart'></i><br>
 						<span>Cart</span></a
 					>
@@ -106,15 +106,15 @@
 	<div>
 		<a
 			class="mx-4 text-sm leading-5 text-gray-700 transition-colors duration-200 transform md:my-0"
-			href="#">About Us</a
+			href="/settings/about">About Us</a
 		>
 		<a
 			class="mx-4 text-sm leading-5 text-gray-700 transition-colors duration-200 transform md:my-0"
-			href="#">Our Services</a
+			href="/account/services">Our Services</a
 		>
 		<a
 			class="mx-4 text-sm leading-5 text-gray-700 transition-colors duration-200 transform md:my-0"
-			href="#">Blog</a
+			href="/blog">Blog</a
 		>
 		<a
 			class="mx-4 text-sm leading-5 text-gray-700 transition-colors duration-200 transform md:my-0"
@@ -122,7 +122,7 @@
 		>
 		<a
 			class="mx-4 text-sm leading-5 text-gray-700 transition-colors duration-200 transform md:my-0"
-			href="#">Shop</a
+			href="/ecommerce">Shop</a
 		>
 	</div>
 	<div class="flex justify-end items-center space-x-5">

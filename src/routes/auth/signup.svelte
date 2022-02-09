@@ -74,7 +74,7 @@
                         </div>
                     </div>
                     <p class="text-gray-600 font-normal text-center">
-                        Already an account? <a href="#" class="text-green-800">Login..</a>
+                        Already an account? <a href="/auth/login" class="text-green-800">Login..</a>
                     </p>
                 </form>
             </div>
