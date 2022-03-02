@@ -1,10 +1,10 @@
-<section class="mt-24 w-screen">
-    <div class="w-full sm:w-5/6 md:w-3/4 lg:w-2/3 mx-auto my-12 p-4 md:p-12">
-        <div class="flex m-auto text-center flex-col w-2/4 items-center">
-        <span class="text-green-600 text-4xl font-black">E-Commerce</span>
-        <h3 class="mt-2 text-lg font-normal text-gray-400">
-            Here’s where Chaw members are having the most luck right now. Along with deals, discover trending picks. 
-        </h3>
+<section class="mt-24 lg:px-20 px-10 w-screen">
+    <div class="w-full  mx-auto mt-8 p-4 md:p-12">
+        <div class="flex m-auto text-center flex-col lg:w-3/6 items-center">
+            <span class="text-green-800 text-4xl font-bold">E-Commerce</span>
+            <h3 class="mt-2 text-lg font-semibold tacking-wider text-gray-500">
+                Here’s where Chaw members are having the most luck right now. Along with deals, discover trending picks. 
+            </h3>
         </div>
 
         <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 place-content-center gap-6 mt-10 text-center">
@@ -65,7 +65,7 @@
                 <span class="font-bold">$350.00</span>
             </article>
 
-            <article class="feature h-fit text-left p-3 bg-white shadow-md overflow-hidden">
+            <article class="feature sm:-mt-16 lg:mt-1 md:mt-[-2rem] h-fit text-left p-3 bg-white shadow-md overflow-hidden">
                 <img
                 class="m-auto w-full"
                 src="/images/commerce/milk.png"
@@ -84,7 +84,7 @@
                 <span class="font-bold">$150.00</span>
             </article>
 
-            <article class="feature h-fit text-left p-3 bg-white shadow-md overflow-hidden">
+            <article class="feature lg:mt-[-2rem] md:mt-[-7rem] h-fit text-left p-3 bg-white shadow-md overflow-hidden">
                 <img
                 class="m-auto w-full"
                 src="/images/commerce/berry.png"
@@ -103,7 +103,7 @@
                 <span class="font-bold">$150.00</span>
             </article>
 
-            <article class="feature h-fit text-left p-3 bg-white shadow-md overflow-hidden">
+            <article class="feature sm:-mt-32 lg:mt-[-5rem] h-fit text-left p-3 bg-white shadow-md overflow-hidden">
                 <img
                 class="m-auto w-full"
                 src="/images/commerce/carrot.png"
@@ -122,7 +122,7 @@
                 <span class="font-bold">$400.00</span>
             </article>
 
-            <article class="feature h-fit text-left p-3 bg-white shadow-md overflow-hidden">
+            <article class="feature sm:-mt-4 lg:mt-[0rem] md:-mt-24 h-fit text-left p-3 bg-white shadow-md overflow-hidden">
                 <img
                 class="m-auto w-full"
                 src="/images/commerce/milk.png"
@@ -142,7 +142,7 @@
             </article>
 
 
-            <article class="feature h-fit text-left p-3 bg-white shadow-md overflow-hidden">
+            <article class="feature sm:-mt-24 md:-mt-40 lg:-mt-20 h-fit text-left p-3 bg-white shadow-md overflow-hidden">
                 <img
                 class="m-auto w-full"
                 src="/images/commerce/bread.png"
@@ -162,11 +162,10 @@
             </article>
         </div>
 
-        <div class="flex m-auto text-center cursor-pointer space-x-3 justify-center mt-5 w-2/4 items-center">
-            <a href="/products/1234">
-            <h4 class="text-xl uppercase font-black">Explore All</h4>
-            <h4>
-                <svg class="animate-pulse" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <div class="flex m-auto text-center cursor-pointer space-x-3 justify-center mt-20 w-2/4 items-center">
+            <a class="flex space-x-6" href="/products/1234">
+                <h4 class="text-xl uppercase font-black">Explore All</h4>
+                <svg class="slide-bck-left" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g clip-path="url(#clip0_561_5121)">
                     <path d="M18.5 7.49695L23.5 12.4969L18.5 17.4969" stroke="#031009" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                     <path d="M23.5 12.4969H0.5" stroke="#031009" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -177,7 +176,6 @@
                     </clipPath>
                     </defs>
                 </svg>
-            </h4>
             </a>
         </div>
     </div>

@@ -4,7 +4,8 @@
 @tailwind utilities;
 
 body {
-    overflow-x: hidden;
+  overflow-x: hidden;
+  font-family: 'Work Sans', sans-serif;
 }
 
 input[type='number']::-webkit-inner-spin-button,
@@ -20,3 +21,24 @@ input[type='number']::-webkit-outer-spin-button {
 .custom-number-input button:focus {
   outline: none !important;
 }
+
+	.slide-bck-left {
+		-webkit-animation:slide-bck-left .60s ease-in-out infinite alternate both;
+		animation:slide-bck-left .45s ease-in-out infinite alternate both
+	}
+
+	@-webkit-keyframes slide-bck-left{
+		0% {
+			-webkit-transform:translateZ(0) translateX(0);
+			transform:translateZ(0) translateX(0)}
+		100% {
+			-webkit-transform:translateZ(-0px) translateX(-50px);
+			transform:translateZ(-50px) translateX(-50px)}}
+		@keyframes slide-bck-left{
+			0%{
+			-webkit-transform:translateZ(0) translateX(0);transform:translateZ(0) translateX(0)}
+			100%{
+				-webkit-transform:translateZ(-0px) translateX(-30px);
+				transform:translateZ(-10px) translateX(-10px)
+			}
+		}

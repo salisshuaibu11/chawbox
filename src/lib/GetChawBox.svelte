@@ -1,11 +1,11 @@
-<section class="w-screen lg:h-screen bg-gray-100 lg:flex lg:items-center py-4 lg:py-24 lg:pr-12">
+<section class="w-screen lg:h-screen -mt-44 lg:flex lg:items-center py-4 lg:py-24 lg:pr-12">
 	<div
 		class="w-full lg:flex-1 lg:bg-[url('/rectangle.png')] lg:mr-[10rem] h-full mx-auto lg:mx-0 bg-no-repeat relative"
 	>
 		<img src="/app.png" alt="" class="mx-auto lg:mx-0 lg:absolute lg:left-20 lg:-top-20" />
 	</div>
 	<div class="lg:flex-1 space-y-2 mx-auto mt-8 lg:mt-0 text-center">
-		<h2 class="text-4xl lg:text-6xl font-black">
+		<h2 class="text-4xl lg:text-4xl font-black">
 			Get The <span class="text-green-600">ChawBox</span> App
 		</h2>
 		<h5>Are you an Android or iPhone user? We got you covered.</h5>
