@@ -8,7 +8,7 @@
 		<div>
 			<a href="/">Home </a>/
 			<a href="/account/services">Account </a> /
-			<a href="#">Recently Viewed </a>
+			<a href="/recently-viewed">Recently Viewed </a>
 		</div>
 		<div class="flex justify-center items-center mt-12">
 			<img class="absolute mx-auto" src="/icons/viewed.svg" alt="" />
@@ -28,7 +28,7 @@
                         src="/groceries/date.png"
                         alt="E Farm"
                         />
-                        <div class="bg-black absolute w-full h-14 bottom-0 flex items-center justify-center group-hover:opacity-70 text-lg opacity-0 text-white">
+                        <div class="bg-black absolute w-full h-10 bottom-0 flex items-center justify-center group-hover:opacity-70 text-lg opacity-0 text-white">
                             <button>Add To Cart</button>
                         </div>
                     </div>

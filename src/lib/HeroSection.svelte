@@ -40,48 +40,48 @@
                     <span class="group-hover:text-yellow-500">E-commerce</span>
                 </li>
                 <li class="flex cursor-pointer my-2 group items-center space-x-1">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg class="group-hover:text-yellow-500" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g clip-path="url(#clip0_561_5017)">
-                        <path d="M5.401 8.49902H4.01" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M7.13898 3.60898L6.09598 2.56598" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M12.01 1.89102V0.499023" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M16.879 3.60898L17.922 2.56598" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M18.618 8.49902H20.01" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M22.765 15.331C22.8396 15.3752 22.9015 15.4381 22.9444 15.5135C22.9874 15.5889 23.01 15.6742 23.01 15.761V22.98C23.01 23.1126 22.9573 23.2398 22.8636 23.3335C22.7698 23.4273 22.6426 23.48 22.51 23.48H1.51001C1.3774 23.48 1.25022 23.4273 1.15646 23.3335C1.06269 23.2398 1.01001 23.1126 1.01001 22.98V15.758C1.00996 15.6719 1.03211 15.5873 1.07433 15.5123C1.11655 15.4374 1.1774 15.3745 1.25101 15.33C6.74301 12 17.271 12.059 22.765 15.331Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M6.87901 23.501L10.14 12.912" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M0.990026 22.487L8.67603 13.043" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M17.14 23.48L13.879 12.92" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M22.945 22.487L15.242 13.043" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M12.01 23.501V12.856" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M16.3 11.064C16.7536 10.304 16.9975 9.43729 17.0065 8.55229C17.0156 7.66728 16.7896 6.79573 16.3516 6.02665C15.9136 5.25758 15.2793 4.61855 14.5135 4.17484C13.7477 3.73113 12.8778 3.49864 11.9928 3.50112C11.1077 3.5036 10.2392 3.74095 9.4759 4.18895C8.7126 4.63694 8.0819 5.27951 7.64821 6.05102C7.21452 6.82253 6.99339 7.69534 7.0074 8.58028C7.02142 9.46522 7.27008 10.3306 7.72798 11.088" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M5.401 8.49902H4.01" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M7.13898 3.60898L6.09598 2.56598" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M12.01 1.89102V0.499023" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M16.879 3.60898L17.922 2.56598" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M18.618 8.49902H20.01" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M22.765 15.331C22.8396 15.3752 22.9015 15.4381 22.9444 15.5135C22.9874 15.5889 23.01 15.6742 23.01 15.761V22.98C23.01 23.1126 22.9573 23.2398 22.8636 23.3335C22.7698 23.4273 22.6426 23.48 22.51 23.48H1.51001C1.3774 23.48 1.25022 23.4273 1.15646 23.3335C1.06269 23.2398 1.01001 23.1126 1.01001 22.98V15.758C1.00996 15.6719 1.03211 15.5873 1.07433 15.5123C1.11655 15.4374 1.1774 15.3745 1.25101 15.33C6.74301 12 17.271 12.059 22.765 15.331Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M6.87901 23.501L10.14 12.912" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M0.990026 22.487L8.67603 13.043" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M17.14 23.48L13.879 12.92" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M22.945 22.487L15.242 13.043" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M12.01 23.501V12.856" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M16.3 11.064C16.7536 10.304 16.9975 9.43729 17.0065 8.55229C17.0156 7.66728 16.7896 6.79573 16.3516 6.02665C15.9136 5.25758 15.2793 4.61855 14.5135 4.17484C13.7477 3.73113 12.8778 3.49864 11.9928 3.50112C11.1077 3.5036 10.2392 3.74095 9.4759 4.18895C8.7126 4.63694 8.0819 5.27951 7.64821 6.05102C7.21452 6.82253 6.99339 7.69534 7.0074 8.58028C7.02142 9.46522 7.27008 10.3306 7.72798 11.088" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                         </g>
                         <defs>
                         <clipPath id="clip0_561_5017">
-                        <rect width="24" height="24" fill="white" transform="matrix(-1 0 0 1 24 0)"/>
+                        <rect width="24" height="24" fill="currentColor" transform="matrix(-1 0 0 1 24 0)"/>
                         </clipPath>
                         </defs>
                     </svg>             
                     <span class="group-hover:text-yellow-500">E-Farm</span>
                 </li>
                 <li class="flex my-2 cursor-pointer group items-center space-x-1">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg class="group-hover:text-yellow-500" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g clip-path="url(#clip0_561_5017)">
-                        <path d="M5.401 8.49902H4.01" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M7.13898 3.60898L6.09598 2.56598" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M12.01 1.89102V0.499023" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M16.879 3.60898L17.922 2.56598" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M18.618 8.49902H20.01" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M22.765 15.331C22.8396 15.3752 22.9015 15.4381 22.9444 15.5135C22.9874 15.5889 23.01 15.6742 23.01 15.761V22.98C23.01 23.1126 22.9573 23.2398 22.8636 23.3335C22.7698 23.4273 22.6426 23.48 22.51 23.48H1.51001C1.3774 23.48 1.25022 23.4273 1.15646 23.3335C1.06269 23.2398 1.01001 23.1126 1.01001 22.98V15.758C1.00996 15.6719 1.03211 15.5873 1.07433 15.5123C1.11655 15.4374 1.1774 15.3745 1.25101 15.33C6.74301 12 17.271 12.059 22.765 15.331Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M6.87901 23.501L10.14 12.912" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M0.990026 22.487L8.67603 13.043" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M17.14 23.48L13.879 12.92" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M22.945 22.487L15.242 13.043" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M12.01 23.501V12.856" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M16.3 11.064C16.7536 10.304 16.9975 9.43729 17.0065 8.55229C17.0156 7.66728 16.7896 6.79573 16.3516 6.02665C15.9136 5.25758 15.2793 4.61855 14.5135 4.17484C13.7477 3.73113 12.8778 3.49864 11.9928 3.50112C11.1077 3.5036 10.2392 3.74095 9.4759 4.18895C8.7126 4.63694 8.0819 5.27951 7.64821 6.05102C7.21452 6.82253 6.99339 7.69534 7.0074 8.58028C7.02142 9.46522 7.27008 10.3306 7.72798 11.088" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M5.401 8.49902H4.01" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M7.13898 3.60898L6.09598 2.56598" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M12.01 1.89102V0.499023" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M16.879 3.60898L17.922 2.56598" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M18.618 8.49902H20.01" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M22.765 15.331C22.8396 15.3752 22.9015 15.4381 22.9444 15.5135C22.9874 15.5889 23.01 15.6742 23.01 15.761V22.98C23.01 23.1126 22.9573 23.2398 22.8636 23.3335C22.7698 23.4273 22.6426 23.48 22.51 23.48H1.51001C1.3774 23.48 1.25022 23.4273 1.15646 23.3335C1.06269 23.2398 1.01001 23.1126 1.01001 22.98V15.758C1.00996 15.6719 1.03211 15.5873 1.07433 15.5123C1.11655 15.4374 1.1774 15.3745 1.25101 15.33C6.74301 12 17.271 12.059 22.765 15.331Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M6.87901 23.501L10.14 12.912" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M0.990026 22.487L8.67603 13.043" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M17.14 23.48L13.879 12.92" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M22.945 22.487L15.242 13.043" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M12.01 23.501V12.856" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M16.3 11.064C16.7536 10.304 16.9975 9.43729 17.0065 8.55229C17.0156 7.66728 16.7896 6.79573 16.3516 6.02665C15.9136 5.25758 15.2793 4.61855 14.5135 4.17484C13.7477 3.73113 12.8778 3.49864 11.9928 3.50112C11.1077 3.5036 10.2392 3.74095 9.4759 4.18895C8.7126 4.63694 8.0819 5.27951 7.64821 6.05102C7.21452 6.82253 6.99339 7.69534 7.0074 8.58028C7.02142 9.46522 7.27008 10.3306 7.72798 11.088" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                         </g>
                         <defs>
                         <clipPath id="clip0_561_5017">
-                        <rect width="24" height="24" fill="white" transform="matrix(-1 0 0 1 24 0)"/>
+                        <rect width="24" height="24" fill="currentColor" transform="matrix(-1 0 0 1 24 0)"/>
                         </clipPath>
                         </defs>
                         </svg>

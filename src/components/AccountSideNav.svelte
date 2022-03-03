@@ -1,6 +1,5 @@
 <script>
-    import { page } from "$app/stores";
-    const {pathname} = $page.url
+    import { Icon, Logout } from "svelte-hero-icons";
 </script>
 
 <section class="hidden md:block space-y-2 w-[250px] relative -top-12 bg-white shadow-md rounded-md border border-gray-200 h-max">
@@ -72,8 +71,8 @@
 
     <article class="w-full text-left cursor-pointer pt-4">
         <div class="flex items-center space-x-2 px-3 py-2">
-            <img class="w-4 h-4" src="/icons/logout.svg" alt="Shipping Policy" />
-            <span class="font-thin text-red-400">Logout</span>
+            <Icon src="{Logout}" class="h-5 w-5 text-red-400"/>
+            <span class="text-red-500">Logout</span>
         </div>
     </article>
 </section>

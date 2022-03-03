@@ -1,8 +1,12 @@
+<script>
+	import { Icon,Heart, User, ShoppingCart, Search } from "svelte-hero-icons";
+</script>
+
 <header class="mb-24 shadow-b-xl">
 <nav class="bg-white shadow dark:bg-gray-800">
 	<div class="container px-6 py-3 mx-auto">
 		<div class="flex flex-col md:flex-row md:justify-between md:items-center">
-			<div class="flex items-center justify-between">
+			<div class="flex flex-1 items-center justify-between">
 				<div>
 					<a
 						class="text-2xl font-bold text-gray-800 transition-colors duration-200 transform dark:text-white lg:text-3xl hover:text-gray-700 dark:hover:text-gray-300"
@@ -11,26 +15,18 @@
 				</div>
 
 				<!-- Search input on desktop screen -->
-				<div class="hidden mx-10 md:flex relative w-9/12 border border-green-700 rounded-lg p-2">
+				<div class="hidden flex-1 mx-10 md:flex relative border border-green-700">
 					<span class="absolute inset-y-0 left-0 flex items-center pl-3">
-						<svg class="w-5 h-5 text-gray-400" viewBox="0 0 24 24" fill="none">
-							<path
-								d="M21 21L15 15M17 10C17 13.866 13.866 17 10 17C6.13401 17 3 13.866 3 10C3 6.13401 6.13401 3 10 3C13.866 3 17 6.13401 17 10Z"
-								stroke="currentColor"
-								stroke-width="2"
-								stroke-linecap="round"
-								stroke-linejoin="round"
-							/>
-						</svg>
+						<Icon src="{Search}" class="w-6 h-6 text-slate-500"/>
 					</span>
 
 					<input
 						type="text"
-						class="w-full py-2 pl-10 pr-4 text-gray-700 bg-white outline-none"
+						class="w-full pl-10 pr-4 text-gray-700 bg-white outline-none"
 						placeholder="Search"
 					/>
-					<button type="submit" class="bg-green-700 text-white rounded-md px-4 py-1">
-						<i class="fa fa-search"></i>
+					<button type="submit" class="bg-green-700 text-white px-2 py-1">
+						<Icon src="{Search}" class="w-6 h-6"/>
 					</button>
 				</div>
 
@@ -54,19 +50,19 @@
 			<!-- Mobile Menu open: "block", Menu closed: "hidden" -->
 			<div class="items-center md:flex">
 				<div class="flex flex-row mt-2 md:mt-0 md:mx-1">
-					<a class="mx-auto px-4 text-center"
+					<a class="mx-auto flex flex-col items-center space-x-2 px-4 text-center"
 						href="/account/wishlist">
-						<i class='far fa-2x fa-heart'></i><br>
+						<Icon src="{Heart}" class="h-7 w-7" />
 						<span>Wishlist</span></a
 					>
-					<a class="mx-auto px-4 text-center"
+					<a class="mx-auto flex flex-col items-center px-4 text-center"
 						href="/account/services">
-						<i class='far fa-2x fa-user'></i><br>
+						<Icon src="{User}" class="h-7 w-7" />
 						<span>Account</span></a
 					>
-					<a class="mx-auto px-4 text-center"
+					<a class="mx-auto flex flex-col items-center text-green-700 px-4"
 						href="/cart"> 
-						<i class='fa fa-2x fa-shopping-cart'></i><br>
+						<Icon src="{ShoppingCart}" class="h-7 w-7" />
 						<span>Cart</span></a
 					>
 				</div>
@@ -105,33 +101,33 @@
 <div class="py-3 px-4 md:px-12 overflow-y-auto whitespace-nowrap scroll-hidden bg-orange-100 flex items-center justify-between">
 	<div>
 		<a
-			class="mx-4 text-sm leading-5 text-gray-700 transition-colors duration-200 transform md:my-0"
+			class="mx-4 text-sm leading-5 transition-colors duration-200 transform md:my-0"
 			href="/settings/about">About Us</a
 		>
 		<a
-			class="mx-4 text-sm leading-5 text-gray-700 transition-colors duration-200 transform md:my-0"
+			class="mx-4 text-sm leading-5 transition-colors duration-200 transform md:my-0"
 			href="/account/services">Our Services</a
 		>
 		<a
-			class="mx-4 text-sm leading-5 text-gray-700 transition-colors duration-200 transform md:my-0"
+			class="mx-4 text-sm leading-5 transition-colors duration-200 transform md:my-0"
 			href="/blog">Blog</a
 		>
 		<a
-			class="mx-4 text-sm leading-5 text-gray-700 transition-colors duration-200 transform md:my-0"
+			class="mx-4 text-sm leading-5 transition-colors duration-200 transform md:my-0"
 			href="#">Contact Us</a
 		>
 		<a
-			class="mx-4 text-sm leading-5 text-gray-700 transition-colors duration-200 transform md:my-0"
+			class="mx-4 text-sm leading-5 transition-colors duration-200 transform md:my-0"
 			href="/ecommerce">Shop</a
 		>
 	</div>
 	<div class="flex justify-end items-center space-x-5">
 		<a
-			class="mx-4 text-sm leading-5 text-gray-700 transition-colors duration-200 transform md:my-0"
+			class="mx-4 text-sm leading-5 transition-colors duration-200 transform md:my-0"
 			href="#">Get App</a
 		>
 		<a
-			class="mx-4 text-sm leading-5 text-gray-700 transition-colors duration-200 transform md:my-0"
+			class="mx-4 text-sm leading-5 transition-colors duration-200 transform md:my-0"
 			href="#">
 			<img src="/ngn.svg" class="w-8 h-4 inline-block" alt="Naija" />
 			&nbsp;

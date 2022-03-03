@@ -22,10 +22,16 @@ input[type='number']::-webkit-outer-spin-button {
   outline: none !important;
 }
 
-	.slide-bck-left {
-		-webkit-animation:slide-bck-left .60s ease-in-out infinite alternate both;
-		animation:slide-bck-left .45s ease-in-out infinite alternate both
-	}
+.likes__icon {
+	fill: #f59a83;
+	height: 1.5rem;
+	width: 1.5rem;
+}
+
+.slide-bck-left {
+	-webkit-animation:slide-bck-left .60s ease-in-out infinite alternate both;
+	animation:slide-bck-left .45s ease-in-out infinite alternate both
+}
 
 	@-webkit-keyframes slide-bck-left{
 		0% {

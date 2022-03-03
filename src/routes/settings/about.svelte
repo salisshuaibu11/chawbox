@@ -20,7 +20,7 @@
 		<section class="flex-1 mx-4 md:mx-12 my-5 h-fit">
 			<h5 class="font-bold text-2xl my-4">About</h5>
 
-			<p class="text-gray-600 font-normal text-lg">
+			<p class="text-slate-600 text-lg">
 				All rights reserved. The gohenry card is issued by IDT Financial Services Limited, a
 				principal member of Visa Europe. IDT Financial Services Limited is a regulated bank,
 				licensed by the Financial Services Commission, Gibraltar. Registered office: 57-63 Line Wall

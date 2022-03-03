@@ -1,6 +1,9 @@
 <script>
+    import { Icon, Search, X } from "svelte-hero-icons";
 	import RecentlyViewed from '../../components/Products.svelte';
 	import AccountSideNav from '../../components/AccountSideNav.svelte';
+
+    let arrays = new Array(4);
 </script>
 
 <section class="w-screen -mt-24">
@@ -19,46 +22,19 @@
 		<AccountSideNav />
 		<section class="flex-1 mx-4 md:mx-12 my-5 h-fit">
 			<h5 class="font-bold text-2xl my-8">Recently Searched</h5>
-
-            <div class="block w-full mb-4 flex justify-between items-center text-xl text-gray-400">
-                <div>
-                    <i class="fa fa-search mr-2"></i>
-                    <span>Lorem ipsum dolor sit amet, consectetur</span>
+           {#each arrays as searched}
+                <div class="w-full mb-4 flex justify-between items-center text-xl">
+                    <div class="flex items-center space-x-2">
+                        <Icon src="{Search}" class="h-6 w-6 text-slate-400"/>
+                        <span class="text-md font-light">wisconsis cheers curds</span>
+                    </div>
+                    <Icon src="{X}" class="h-6 w-6 text-slate-400 cursor-pointer"/>
                 </div>
-                <div><i class="fa fa-times"></i></div>
-            </div>
-            <div class="block w-full mb-4 flex justify-between items-center text-xl text-gray-400">
-                <div>
-                    <i class="fa fa-search mr-2"></i>
-                    <span>Lorem ipsum dolor sit amet, consectetur</span>
-                </div>
-                <div><i class="fa fa-times"></i></div>
-            </div>
-            <div class="block w-full mb-4 flex justify-between items-center text-xl text-gray-400">
-                <div>
-                    <i class="fa fa-search mr-2"></i>
-                    <span>Lorem ipsum dolor sit amet, consectetur</span>
-                </div>
-                <div><i class="fa fa-times"></i></div>
-            </div>
-            <div class="block w-full mb-4 flex justify-between items-center text-xl text-gray-400">
-                <div>
-                    <i class="fa fa-search mr-2"></i>
-                    <span>Lorem ipsum dolor sit amet, consectetur</span>
-                </div>
-                <div><i class="fa fa-times"></i></div>
-            </div>
-            <div class="block w-full mb-4 flex justify-between items-center text-xl text-gray-400">
-                <div>
-                    <i class="fa fa-search mr-2"></i>
-                    <span>Lorem ipsum dolor sit amet, consectetur</span>
-                </div>
-                <div><i class="fa fa-times"></i></div>
-            </div>
+           {/each}
                 
             <button class="block w-full text-center mx-auto mt-8 bg-red-50 p-4">
                 <img src="/icons/delete.svg" class="inline-block" alt="Delete Icon" />
-                <span class="text-red-500">Delete</span>
+                <span class="text-red-500">Clear all</span>
             </button>
 		</section>
 	</div>

@@ -17,19 +17,19 @@
 	<div class="w-full sm:w-11/12 md:w-5/6 mx-auto">
 		<div class="flex flex-col text-left justify-start items-start">
 			<span class="text-green-600 text-2xl font-bold">{title}</span>
-			<h3 class="mt-2 text-lg font-semibold text-gray-400">
+			<h3 class="mt-2 text-lg text-gray-500">
 				{subTitle}
 			</h3>
 		</div>
 
 		<div class="grid lg:grid-cols-4 md:grid-cols-3 justify-items-center mt-10 text-center">
-			<article class="feature group h-[344px] relative text-left p-3 bg-white shadow-md">
-				<div class="relative h-[60%]">
+			<article class="feature group h-fit relative text-left p-3 bg-white shadow-md">
+				<div class="relative">
 					<a href="/products/1234"
 						><img class="m-auto w-full h-full" src="/groceries/date.png" alt="E Farm" /></a
 					>
 					<div
-						class="bg-black absolute w-full h-14 bottom-0 flex items-center justify-center group-hover:opacity-70 text-lg opacity-0 text-white"
+						class="bg-black absolute w-full h-10 bottom-0 flex items-center justify-center group-hover:opacity-70 text-lg opacity-0 text-white"
 					>
 						<button>Add To Cart</button>
 					</div>
@@ -46,7 +46,7 @@
 				<h3 class="">
 					<a href="/products/1234">
 						<h5 class="py-2 font-medium">0.1kg teaspoonful Almond Seed</h5>
-						<h5 class="text-gray-600 font-extralight">A one-line sub-text should be...</h5>
+						<h5 class="text-slate-500">A one-line sub-text should be...</h5>
 					</a>
 				</h3>
 				<div class="flex space-x-1 py-3">
@@ -67,40 +67,38 @@
 		<div
 			class="flex m-auto text-center cursor-pointer space-x-3 justify-center mt-5 w-2/4 items-center"
 		>
-			<a href="/products">
+			<a class="flex space-x-6 items-center" href="/products">
 				<h4 class="text-2xl uppercase font-black text-gray-800">Explore All</h4>
-				<h4>
-					<svg
-						class="animate-pulse"
-						width="24"
-						height="24"
-						viewBox="0 0 24 24"
-						fill="none"
-						xmlns="http://www.w3.org/2000/svg"
-					>
-						<g clip-path="url(#clip0_561_5121)">
-							<path
-								d="M18.5 7.49695L23.5 12.4969L18.5 17.4969"
-								stroke="#031009"
-								stroke-width="1.5"
-								stroke-linecap="round"
-								stroke-linejoin="round"
-							/>
-							<path
-								d="M23.5 12.4969H0.5"
-								stroke="#031009"
-								stroke-width="1.5"
-								stroke-linecap="round"
-								stroke-linejoin="round"
-							/>
-						</g>
-						<defs>
-							<clipPath id="clip0_561_5121">
-								<rect width="24" height="24" fill="white" />
-							</clipPath>
-						</defs>
-					</svg>
-				</h4>
+				<svg
+					class="slide-bck-left"
+					width="24"
+					height="24"
+					viewBox="0 0 24 24"
+					fill="none"
+					xmlns="http://www.w3.org/2000/svg"
+				>
+					<g clip-path="url(#clip0_561_5121)">
+						<path
+							d="M18.5 7.49695L23.5 12.4969L18.5 17.4969"
+							stroke="#031009"
+							stroke-width="1.5"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+						/>
+						<path
+							d="M23.5 12.4969H0.5"
+							stroke="#031009"
+							stroke-width="1.5"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+						/>
+					</g>
+					<defs>
+						<clipPath id="clip0_561_5121">
+							<rect width="24" height="24" fill="white" />
+						</clipPath>
+					</defs>
+				</svg>
 			</a>
 		</div>
 	</div>

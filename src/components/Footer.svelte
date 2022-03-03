@@ -1,98 +1,85 @@
 <footer class="bg-white lg:px-16 px-10 dark:bg-gray-800 mt-24">
-	<div class="container px-6 py-4 mx-auto">
-		<div class="lg:flex">
-			<div class="w-full -mx-6 lg:w-2/5">
-				<div class="px-6">
-					<div>
-						<a
-							href="#"
-							class="text-xl font-bold text-gray-800 dark:text-white hover:text-gray-700 dark:hover:text-gray-300"
-						>
-							<img src="/logo.svg" class="w-32 h-18" alt="logo" />
-							<br />
-							<h3 class="font-bold text-2xl mb-4 text-black">Sign Up for NewsLetter</h3>
-							<p class="text-gray-600 font-light">
-								Subscribe to the weekly newsletter for all the latest updates
-							</p>
-							<br />
-							<form class="flex flex-wrap justify-start items-center">
-								<div class="mb-4">
-									<input
-										type="text"
-										class="min-w-[100px] p-2 rounded-lg border-2 mr-4 border-gray-100 outline-none"
-									/>
-								</div>
-								<div class="mb-4">
-									<button
-										type="submit"
-										class="border border-green-800 text-green-800 text-center p-2 hover:text-white hover:bg-green-800 rounded-lg"
-										>Subscribe</button
-									>
-								</div>
-							</form>
-						</a>
-					</div>
+	<div class="flex flex-wrap justify-between">
+		<div>
+
+			<img src="/logo.svg" class="w-32 h-18" alt="logo" />
+
+			<h3 class="font-bold text-md my-5 text-black">Sign Up for NewsLetter</h3>
+			<p class="text-gray-600 mb-5 w-3/5 font-light">
+				Subscribe to the weekly newsletter for all the latest updates
+			</p>
+
+			<form class="flex justify-start items-center">
+				<div class="mb-4">
+					<input
+						type="text"
+						placeholder="Enter your email address"
+						class="p-2 rounded-lg border-2 mr-4 border-gray-100 outline-none"
+					/>
 				</div>
-			</div>
-
-			<div class="mt-6 lg:mt-0 lg:flex-1">
-				<div class="grid grid-cols-1 gap-6 sm:grid-cols-3">
-					<div>
-						<h3 class="text-gray-700 font-bold uppercase dark:text-white">About Chawbox</h3>
-						<a href="#" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
-							>About Us</a
-						>
-						<a href="#" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
-							>Career</a
-						>
-						<a href="#" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
-							>Affiliate</a
-						>
-						<a href="#" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
-							>Terms of use</a
-						>
-						<a href="#" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
-							>Terms and policies</a
-						>
-					</div>
-
-					<div>
-						<h3 class="text-gray-700 font-bold uppercase dark:text-white">Let Us Help You</h3>
-						<a href="/account/services" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
-							>Your account</a
-						>
-						<a href="/account/track-orders" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
-							>Your orders</a
-						>
-						<a href="/settings/shipping-policy" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
-							>Shipping policy</a
-						>
-						<a href="#" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
-							>Refund policy</a
-						>
-						<a href="#" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
-							>Help</a
-						>
-						<a href="#" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
-							>FAQs</a
-						>
-					</div>
-
-					<div>
-						<h3 class="text-gray-700 font-bold uppercase dark:text-white">Contact Us</h3>
-						<span class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
-							>+234 90 0000 0000</span
-						>
-						<span class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
-							>help@chawbox.com</span
-						>
-					</div>
+				<div class="mb-4">
+					<button
+						type="submit"
+						class="border border-green-800 text-green-800 text-center p-2 hover:text-white hover:bg-green-800 rounded-sm"
+						>Subscribe</button
+					>
 				</div>
-			</div>
+			</form>
+		</div>
+
+		<div>
+			<h3 class="text-gray-700 font-bold uppercase dark:text-white">About Chawbox</h3>
+			<a href="#" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
+				>About Us</a
+			>
+			<a href="#" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
+				>Career</a
+			>
+			<a href="#" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
+				>Affiliate</a
+			>
+			<a href="#" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
+				>Terms of use</a
+			>
+			<a href="#" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
+				>Terms and policies</a
+			>
+		</div>
+
+		<div>
+			<h3 class="text-gray-700 font-bold uppercase dark:text-white">Let Us Help You</h3>
+			<a href="/account/services" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
+				>Your account</a
+			>
+			<a href="/account/track-orders" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
+				>Your orders</a
+			>
+			<a href="/settings/shipping-policy" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
+				>Shipping policy</a
+			>
+			<a href="#" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
+				>Refund policy</a
+			>
+			<a href="#" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
+				>Help</a
+			>
+			<a href="#" class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
+				>FAQs</a
+			>
+		</div>
+
+		<div>
+			<h3 class="text-gray-700 font-bold uppercase dark:text-white">Contact Us</h3>
+			<span class="block mt-2 text-sm text-green-600 dark:text-gray-400 hover:underline"
+				>+234 90 0000 0000</span
+			>
+			<span class="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
+				>help@chawbox.com</span
+			>
 		</div>
 	</div>
-	<div class="container px-6 py-4 mx-auto">
-		<div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+
+	<div class="flex flex-wrap justify-between py-10">
 			<div class="">
 				<h3 class="font-bold text-black mb-4 text-lg">Follow Us</h3>
 				<div class="flex justify-start items-center space-x-6">
@@ -143,6 +130,6 @@
 					</div>
 				</div>
 			</div>
+
 		</div>
-	</div>
 </footer>

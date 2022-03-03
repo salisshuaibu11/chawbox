@@ -20,18 +20,18 @@
 		<section class="flex-1 mx-4 md:mx-12 my-5 h-fit">
 			<h5 class="font-bold text-2xl my-4">Help Center</h5>
 
-            <div class="my-4 bg-green-700 rounded p-2 flex space-x-2">
-                <div class="text-lg font-normal text-white">
-                    <span>You can reach us via</span>
-                    <i class="fa fa-arrow-right mr-3"></i>
-                </div>
-                <div>
-                    <div class="text-lg font-normal text-white">
-                        <i class="fa fa-arrow-right mr-3"></i>
-                        <span>You can reach us via</span>
-                    </div>
-                </div>
-            </div>
+			<div class="my-4 bg-green-700 rounded p-2 flex space-x-2">
+					<div class="text-lg font-normal text-white">
+							<span>You can reach us via</span>
+							<i class="fa fa-arrow-right mr-3"></i>
+					</div>
+					<div>
+							<div class="text-lg font-normal text-white">
+									<i class="fa fa-arrow-right mr-3"></i>
+									<span>You can reach us via</span>
+							</div>
+					</div>
+			</div>
         
 		</section>
 	</div>
