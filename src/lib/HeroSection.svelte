@@ -34,7 +34,7 @@
                     </span>
                 </div>
             </div>
-            <ul class="flex flex-wrap items-center justify-around text-white">
+            <ul class="flex flex-wrap items-center justify-around text-white font-bold">
                 <li class="flex cursor-pointer group my-2 group items-center space-x-1">
                     <Icon src="{ShoppingCart}" class="group-hover:text-yellow-500 w-6 h-6"/>
                     <span class="group-hover:text-yellow-500">E-commerce</span>
@@ -115,7 +115,7 @@
                     </clipPath>
                     </defs>
                 </svg> 
-                <h3 class="text-white">
+                <h3 class="text-white font-semibold">
                     <span class="block">Secure Payment</span>
                     <span class="block">100% Secure Payment</span>
                 </h3>      
@@ -137,7 +137,7 @@
                     </clipPath>
                     </defs>
                 </svg>   
-                <h3 class="text-white">
+                <h3 class="text-white font-semibold">
                     <span class="block">24/7 Support</span>
                     <span class="block">Dedicated Support</span>
                 </h3>      
@@ -159,7 +159,7 @@
                     <path d="M12.5 27.5H10.625" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
     
-                <h3 class="text-white">
+                <h3 class="text-white font-semibold">
                     <span class="block">Gift Service</span>
                     <span class="block">Dedicated Support</span>
                 </h3>      

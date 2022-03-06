@@ -4,9 +4,9 @@
     let menu;
 
     onMount(() => {
-            btn.addEventListener("click", () => {
-        menu.classList.toggle("hidden");
-    });
+        btn.addEventListener("click", () => {
+            menu.classList.toggle("hidden");
+        });
     })
 </script>
 
@@ -15,16 +15,16 @@
         <div class="flex justify-between">
             <div class="flex space-x-7">
                 <div class="hidden md:flex items-center space-x-1">
-                    <a href="/settings/about" class="py-4 px-2 text-white font-semibold">About Us</a>
-                    <a href="/account/services" class="py-4 px-2 text-gray-100 font-semibold hover:text-white transition duration-300">Our Services</a>
-                    <a href="/blog" class="py-4 px-2 text-gray-100 font-semibold hover:text-white transition duration-300">Blog</a>
-                    <a href="/contact" class="py-4 px-2 text-gray-100 font-semibold hover:text-white transition duration-300">Contact</a>
+                    <a href="/settings/about" class="py-4 px-2 text-white font-bold">About Us</a>
+                    <a href="/account/services" class="py-4 px-2 text-white text-lg font-bold hover:text-white transition duration-300">Our Services</a>
+                    <a href="/blog" class="py-4 px-2 text-white text-lg font-bold hover:text-white transition duration-300">Blog</a>
+                    <a href="/contact" class="py-4 px-2 text-white text-lg font-bold hover:text-white transition duration-300">Contact</a>
                 </div>
             </div>
             <!-- Secondary Navbar items -->
             <div class="hidden md:flex items-center space-x-3 ">
-                <a href="" class="py-2 px-2 font-medium text-gray-100 hover:text-white transition duration-300">Log In</a>
-                <a href="" class="py-2 px-2 font-medium text-white hover:bg-white hover:text-black border rounded transition duration-300">Sign Up</a>
+                <a href="" class="py-2 px-2 font-bold text-white hover:text-white transition duration-300">Log In</a>
+                <a href="" class="py-2 px-2 font-bold text-white hover:bg-white hover:text-black border rounded transition duration-300">Sign Up</a>
             </div>
             <!-- Mobile menu button -->
             <div class="md:hidden flex items-center">

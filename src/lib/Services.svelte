@@ -1,5 +1,5 @@
-<section class="bg-gray-50 -mt-12">
-    <div class="w-full sm:w-5/6 md:w-3/4 lg:w-2/3 mx-auto my-12 p-4 md:p-12">
+<section class="bg-gray-50 -mt-12 lg:px-20 px-10">
+    <div class="w-full  mx-auto mt-8 p-4 md:p-12">
         <div class="flex flex-col items-center">
         <span class="text-green-800 text-4xl font-bold">All In One Box</span>
         <h3 class="mt-2 text-xl font-bold text-gray-500 tracking-wider">
@@ -8,7 +8,8 @@
         </div>
 
 
-        <div class="grid grid-cols-2  md:grid-cols-4 gap-6 place-content-center mt-12 text-center">
+        <div class="grid grid-cols-1  md:grid-cols-4 gap-6 place-content-center mt-12 text-center">
+            
             <article class="feature group relative text-center overflow-hidden shadow">
                 <img
                 class="m-auto w-full group-hover:scale-125 transition-all ease-in duration-300"
