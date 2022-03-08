@@ -1,7 +1,7 @@
 <script>
-    import { onMount } from "svelte";
+	import { onMount } from 'svelte';
 
-    let prevArrow = `
+	let prevArrow = `
     <svg class="slide-arrow z-20 prev-arrow h-24 w-24 absolute top-[6rem] left-0" viewBox="0 0 88 120" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g filter="url(#filter0_d_134_1441)">
         <circle cx="28" cy="60" r="28" fill="white"/>
@@ -26,7 +26,7 @@
         </defs>
     </svg>
     `;
-    let nextArrow = `
+	let nextArrow = `
     <svg class="slide-arrow next-arrow h-24 bottom-[7rem] right-0 w-24 absolute" viewBox="0 0 88 120" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g filter="url(#filter0_d_134_1444)">
         <circle r="28" transform="matrix(-1 0 0 1 60 60)" fill="white"/>
@@ -52,137 +52,149 @@
     </svg>
     `;
 
-    onMount(() => {
-        window.$(".testimonials").slick({
-            infinite: true,
-            autoplay: true,
-            speed: 300,
-            slidesToShow: 3,
-            prevArrow: prevArrow,
-            nextArrow: nextArrow,
-            slidesToScroll: 1,
-            responsive: [
-                {
-                breakpoint: 1024,
-                settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 3,
-                    infinite: true,
-                    dots: true
-                }
-                },
-                {
-                breakpoint: 600,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2
-                }
-                },
-                {
-                breakpoint: 480,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                }
-                }
-                // You can unslick at a given breakpoint now by adding:
-                // settings: "unslick"
-                // instead of a settings object
-            ]
-        })
-    });
+	onMount(() => {
+		window.$('.testimonials').slick({
+			infinite: true,
+			autoplay: true,
+			speed: 300,
+			slidesToShow: 3,
+			prevArrow: prevArrow,
+			nextArrow: nextArrow,
+			slidesToScroll: 1,
+			responsive: [
+				{
+					breakpoint: 1024,
+					settings: {
+						slidesToShow: 1,
+						slidesToScroll: 1,
+						infinite: true,
+						dots: true
+					}
+				},
+				{
+					breakpoint: 600,
+					settings: {
+						slidesToShow: 1,
+						slidesToScroll: 1
+					}
+				},
+				{
+					breakpoint: 480,
+					settings: {
+						slidesToShow: 1,
+						slidesToScroll: 1
+					}
+				}
+				// You can unslick at a given breakpoint now by adding:
+				// settings: "unslick"
+				// instead of a settings object
+			]
+		});
+	});
 </script>
 
-<section class="my-10 lg:px-20 px-10 w-screen bg-green-50 py-10">
-    <div class="flex m-auto mb-10 text-center flex-col w-2/4 items-center">
-      <span class="text-green-800 font-bold text-3xl">Customers' Reviews</span>
-      <h3 class="text-xl text-slate-600">
-        Here’s where Chaw members are saying about us.
-      </h3>
-    </div>
+<section class="w-screen bg-green-50">
+	<div class="w-full py-24 px-8 sm:px-16 md:px-36 xl:px-48 mx-auto">
+		<div class="text-center mb-16">
+			<h1 class="text-green-800 text-4xl font-black">Customers’ Reviews</h1>
+			<h5 class="mt-2 text-xl font-normal text-gray-600 tracking-wider">
+				Here’s where Chaw members are saying about us.
+			</h5>
+		</div>
 
+		<div class="testimonials relative w-full">
+			<article class="text-left bg-white shadow-lg px-8 py-5 rounded-md">
+				<div class="flex space-x-1 py-3">
+					<img src="/images/rating-star.svg" alt="" />
+					<img src="/images/rating-star.svg" alt="" />
+					<img src="/images/rating-star.svg" alt="" />
+					<img src="/images/rating-star.svg" alt="" />
+					<img src="/images/rating-star-6.svg" alt="" />
+				</div>
+				<p class="pt-5 pb-10 text-slate-600 text-lg">
+					“I just wanted to say thank you. Thanks for all the pretty support you give during these
+					issues in the support que forum.”
+				</p>
+				<div class="flex space-x-2">
+                    <div class="w-10 h-10">
+					    <img src="/images/reviews/user1.png" class="w-full h-full" alt="" />
+                    </div>
+					<h3 class="">
+						<span class="block font-semibold text-gray-700">Kemi Ororyo</span>
+						<em class="block font-normal text-gray-500">E-commerce</em>
+					</h3>
+				</div>
+			</article>
 
-    <div class="testimonials relative w-full">
-        <article class="text-left bg-white shadow-md px-8 py-5 rounded-md">
-            <div class="flex space-x-1 py-3">
-                <img src="/images/rating-star.svg" alt=""/>
-                <img src="/images/rating-star.svg" alt=""/>
-                <img src="/images/rating-star.svg" alt=""/>
-                <img src="/images/rating-star.svg" alt=""/>
-                <img src="/images/rating-star-6.svg" alt=""/>
-            </div>
-            <p class="pt-5 pb-10 text-slate-600 text-lg">
-                “I just wanted to say thank you. Thanks for all the pretty support you give during these issues in the support que forum.”
-            </p>
-            <div class="flex space-x-2">
-                <img src="/images/reviews/user1.png" class="" alt="" />
-                <h3 class="">
-                    <span class="block">Kemi Ororyo</span>
-                    <span class="block text-gray-500">E-commerce</span>
-                </h3>      
-            </div>
-        </article>
+            <article class="text-left bg-white shadow-lg px-8 py-5 rounded-md">
+				<div class="flex space-x-1 py-3">
+					<img src="/images/rating-star.svg" alt="" />
+					<img src="/images/rating-star.svg" alt="" />
+					<img src="/images/rating-star.svg" alt="" />
+					<img src="/images/rating-star.svg" alt="" />
+					<img src="/images/rating-star-6.svg" alt="" />
+				</div>
+				<p class="pt-5 pb-10 text-slate-600 text-lg">
+					“I just wanted to say thank you. Thanks for all the pretty support you give during these
+					issues in the support que forum.”
+				</p>
+				<div class="flex space-x-2">
+                    <div class="w-10 h-10">
+					    <img src="/images/reviews/user1.png" class="w-full h-full" alt="" />
+                    </div>
+					<h3 class="">
+						<span class="block font-semibold text-gray-700">Kemi Ororyo</span>
+						<em class="block font-normal text-gray-500">E-commerce</em>
+					</h3>
+				</div>
+			</article>
 
-        <article class="text-left bg-white shadow-md px-8 py-5 rounded-md">
-            <div class="flex space-x-1 py-3">
-                <img src="/images/rating-star.svg" alt=""/>
-                <img src="/images/rating-star.svg" alt=""/>
-                <img src="/images/rating-star.svg" alt=""/>
-                <img src="/images/rating-star.svg" alt=""/>
-                <img src="/images/rating-star-6.svg" alt=""/>
-            </div>
-            <p class="pt-5 pb-10 text-slate-600 text-lg">
-                “I just wanted to say thank you. Thanks for all the pretty support you give during these issues in the support que forum.”
-            </p>
-            <div class="flex space-x-2">
-                <img src="/images/reviews/user1.png" class="" alt="" />
-                <h3 class="">
-                    <span class="block">Kemi Ororyo</span>
-                    <span class="block text-gray-500">E-commerce</span>
-                </h3>      
-            </div>
-        </article>
+            <article class="text-left bg-white shadow-lg px-8 py-5 rounded-md">
+				<div class="flex space-x-1 py-3">
+					<img src="/images/rating-star.svg" alt="" />
+					<img src="/images/rating-star.svg" alt="" />
+					<img src="/images/rating-star.svg" alt="" />
+					<img src="/images/rating-star.svg" alt="" />
+					<img src="/images/rating-star-6.svg" alt="" />
+				</div>
+				<p class="pt-5 pb-10 text-slate-600 text-lg">
+					“I just wanted to say thank you. Thanks for all the pretty support you give during these
+					issues in the support que forum.”
+				</p>
+				<div class="flex space-x-2">
+                    <div class="w-10 h-10">
+					    <img src="/images/reviews/user1.png" class="w-full h-full" alt="" />
+                    </div>
+					<h3 class="">
+						<span class="block font-semibold text-gray-700">Kemi Ororyo</span>
+						<em class="block font-normal text-gray-500">E-commerce</em>
+					</h3>
+				</div>
+			</article>
 
-        <article class="text-left bg-white shadow-md px-8 py-5 rounded-md">
-            <div class="flex space-x-1 py-3">
-                <img src="/images/rating-star.svg" alt=""/>
-                <img src="/images/rating-star.svg" alt=""/>
-                <img src="/images/rating-star.svg" alt=""/>
-                <img src="/images/rating-star.svg" alt=""/>
-                <img src="/images/rating-star-6.svg" alt=""/>
-            </div>
-            <p class="pt-5 pb-10 text-slate-600 text-lg">
-                “I just wanted to say thank you. Thanks for all the pretty support you give during these issues in the support que forum.”
-            </p>
-            <div class="flex space-x-2">
-                <img src="/images/reviews/user1.png" class="" alt="" />
-                <h3 class="">
-                    <span class="block">Kemi Ororyo</span>
-                    <span class="block text-gray-500">E-commerce</span>
-                </h3>      
-            </div>
-        </article>
+            <article class="text-left bg-white shadow-lg px-8 py-5 rounded-md">
+				<div class="flex space-x-1 py-3">
+					<img src="/images/rating-star.svg" alt="" />
+					<img src="/images/rating-star.svg" alt="" />
+					<img src="/images/rating-star.svg" alt="" />
+					<img src="/images/rating-star.svg" alt="" />
+					<img src="/images/rating-star-6.svg" alt="" />
+				</div>
+				<p class="pt-5 pb-10 text-slate-600 text-lg">
+					“I just wanted to say thank you. Thanks for all the pretty support you give during these
+					issues in the support que forum.”
+				</p>
+				<div class="flex space-x-2">
+                    <div class="w-10 h-10">
+					    <img src="/images/reviews/user1.png" class="w-full h-full" alt="" />
+                    </div>
+					<h3 class="">
+						<span class="block font-semibold text-gray-700">Kemi Ororyo</span>
+						<em class="block font-normal text-gray-500">E-commerce</em>
+					</h3>
+				</div>
+			</article>
 
-        <article class="text-left bg-white shadow-md px-8 py-5 rounded-md">
-            <div class="flex space-x-1 py-3">
-                <img src="/images/rating-star.svg" alt=""/>
-                <img src="/images/rating-star.svg" alt=""/>
-                <img src="/images/rating-star.svg" alt=""/>
-                <img src="/images/rating-star.svg" alt=""/>
-                <img src="/images/rating-star-6.svg" alt=""/>
-            </div>
-            <p class="pt-5 pb-10 text-slate-600 text-lg">
-                “I just wanted to say thank you. Thanks for all the pretty support you give during these issues in the support que forum.”
-            </p>
-            <div class="flex space-x-2">
-                <img src="/images/reviews/user1.png" class="" alt="" />
-                <h3 class="">
-                    <span class="block">Kemi Ororyo</span>
-                    <span class="block text-gray-500">E-commerce</span>
-                </h3>      
-            </div>
-        </article>
-
-    </div>
-
+		</div>
+	</div>
 </section>

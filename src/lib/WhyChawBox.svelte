@@ -1,15 +1,14 @@
 
-<section class="px-10 w-screen">
+<section class="w-screen bg-white">
+	<div class="w-full py-24 px-8 sm:px-16 md:px-36 xl:px-48 mx-auto">
+		<div class="text-center mb-16">
+			<h1 class="text-green-800 text-4xl font-black">Why ChawBox?</h1>
+			<h5 class="mt-2 text-xl font-normal text-gray-600 tracking-wider">
+				Here is why you should always opt in for ChawBox
+			</h5>
+		</div>
 
-    <div class="w-full sm:w-5/6 md:w-3/4 lg:w-2/3 mx-auto my-12 p-4 md:p-12">
-        <div class="flex m-auto mb-10 text-center flex-col items-center">
-            <span class="text-green-800 text-4xl font-bold">Why CHawBox?</span>
-            <h3 class="mt-2 font-normal text-lg text-gray-500">
-                Here is why you should always opt in for ChawBox
-            </h3>
-        </div>
-
-        <div class="grid lg:grid-cols-3 grid-cols-1 md:grid-cols-3 place-content-center gap-6 mt-12np text-center">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12 text-center">
             <article class="feature text-center">
                 <img
                     class="m-auto"

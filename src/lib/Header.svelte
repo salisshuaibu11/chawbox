@@ -9,7 +9,7 @@
     onMount(() => {
         const hero = document.getElementById("hero");
         let interval = 0;
-
+        hero.style.backgroundImage = `url(${images[0]})`;
         setInterval(() => {
             if (interval <= images.length - 2) {
                 interval++
@@ -17,10 +17,10 @@
                 interval = 0;
             }
             hero.style.backgroundImage = `url(${images[interval]})`;
-        }, 5000);
+        },3000);
     })
 </script>
-<section id="hero" class={`mb-0 h-fit overflow-hidden transition-all delay-150 bg-no-repeat bg-cover bg-center py-12 lg:px-40 px-10 md:px-10  bg-blend-multiply w-screen`}>
+<section id="hero" class={`mb-0 h-fit overflow-hidden transition-all delay-150 bg-no-repeat bg-cover bg-center py-12 bg-blend-multiply w-screen`}>
     <Navbar />
     <HeroSection />
 </section>

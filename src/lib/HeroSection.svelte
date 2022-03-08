@@ -8,14 +8,14 @@
     } from "svelte-hero-icons";
 </script>
 
-<section class="mt-3 h-full flex flex-col items-center justify-center">
-    <div class="mt-5 flex flex-col">
-        <div class="flex mt-5 flex-col lg:py-0 py-4">
-            <div class="text-center">
-                <img src="/logo-orange.png" alt="logo" class="mb-4 mx-auto text-center"/>
-                <p class="text-gray-200 text-lg tracking-widest font-bold">Your secured haven to shop anything Groceries and Farm essentials</p>
+<section>
+    <div class="w-full py-4 px-8 sm:px-16 md:px-36 xl:px-48 mx-auto">
+        <div class="flex flex-col justify-center mt-36">
+            <div>
+                <img src="/logo-orange.png" alt="logo" class="mx-auto mb-4"/>
+                <p class="text-gray-200 text-center text-2xl tracking-widest font-normal">Your secured haven to shop anything Groceries and Farm essentials</p>
             </div>
-            <div class="flex lg:w-[60rem] mt-4 relative bg-white items-center rounded mb-4">
+            <div class="flex lg:w-full mt-4 relative bg-white items-center rounded mb-4">
                 <div class="flex justify-center p-4">
                   <span class="flex items-center whitespace-no-wrap text-gray-600"> 
                     <Icon src="{Search}" class="h-6 w-6"/>
@@ -95,8 +95,8 @@
             </ul>
         </div>
 
-        <div class="lg:mt-[10rem] mt-7 grid grid-cols-1 lg:grid-cols-3 gap-3 sm:grid-cols-3">
-            <div class="flex space-x-2">
+        <div class="lg:mt-16 mt-8 md:flex justify-between items-center">
+            <div class="mb-8 flex justify-start items-start mt-4 space-x-2">
                 <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g clip-path="url(#clip0_134_1227)">
                     <path d="M31.2617 18.7333H15.4283" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -115,13 +115,13 @@
                     </clipPath>
                     </defs>
                 </svg> 
-                <h3 class="text-white font-semibold">
-                    <span class="block">Secure Payment</span>
-                    <span class="block">100% Secure Payment</span>
+                <h3 class="text-white">
+                    <span class="block text-lg font-semibold">Secure Payment</span>
+                    <span class="block text-md font-normal">100% Secure Payment</span>
                 </h3>      
             </div>
 
-            <div class="flex space-x-2">
+            <div class="mb-8 flex justify-start items-start mt-4 space-x-2">
                 <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g clip-path="url(#clip0_134_1234)">
                     <path d="M29 34.5H30C31.934 34.5 33.5 33.433 33.5 31.5V29.33" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -137,13 +137,13 @@
                     </clipPath>
                     </defs>
                 </svg>   
-                <h3 class="text-white font-semibold">
-                    <span class="block">24/7 Support</span>
-                    <span class="block">Dedicated Support</span>
+                <h3 class="text-white">
+                    <span class="block font-semibold text-lg">24/7 Support</span>
+                    <span class="block font-normal text-md">Dedicated Support</span>
                 </h3>      
             </div>
 
-            <div class="flex space-x-2">
+            <div class="mb-8 flex justify-start items-start mt-4 space-x-2">
                 <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <circle cx="25" cy="25" r="25" fill="white" fill-opacity="0.2"/>
                     <path d="M23.125 27.5H18.125C17.7935 27.5 17.4755 27.3683 17.2411 27.1339C17.0067 26.8995 16.875 26.5815 16.875 26.25V25C16.875 24.6685 17.0067 24.3505 17.2411 24.1161C17.4755 23.8817 17.7935 23.75 18.125 23.75H31.875C32.2065 23.75 32.5245 23.8817 32.7589 24.1161C32.9933 24.3505 33.125 24.6685 33.125 25V26.25C33.125 26.5815 32.9933 26.8995 32.7589 27.1339C32.5245 27.3683 32.2065 27.5 31.875 27.5H26.875" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -159,9 +159,9 @@
                     <path d="M12.5 27.5H10.625" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
     
-                <h3 class="text-white font-semibold">
-                    <span class="block">Gift Service</span>
-                    <span class="block">Dedicated Support</span>
+                <h3 class="text-white">
+                    <span class="block font-semibold text-lg">Gift Service</span>
+                    <span class="block font-normal text-md">Dedicated Support</span>
                 </h3>      
             </div>
         </div>

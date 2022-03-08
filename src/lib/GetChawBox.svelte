@@ -1,4 +1,4 @@
-<section class="w-screen lg:h-screen -mt-44 lg:flex lg:items-center py-4 lg:py-24 lg:pr-12">
+<section class="w-screen lg:h-screen -mt-4 lg:flex lg:items-center py-4 lg:py-24 lg:pr-12">
 	<div
 		class="w-full lg:flex-1 lg:bg-[url('/rectangle.png')] lg:mr-[10rem] h-full mx-auto lg:mx-0 bg-no-repeat relative"
 	>
