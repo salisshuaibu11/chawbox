@@ -1,14 +1,14 @@
-<section class="bg-gray-50 -mt-12 lg:px-20 px-10">
-    <div class="w-full  mx-auto mt-8 p-4 md:p-12">
-        <div class="flex flex-col items-center">
-        <span class="text-green-800 text-4xl font-bold">All In One Box</span>
-        <h3 class="mt-2 text-xl font-bold text-gray-500 tracking-wider">
-            Explore our various curated just for you
-        </h3>
+<section class="w-screen bg-gray-100">
+    <div class="w-full py-24 px-8 sm:px-16 md:px-36 xl:px-48 mx-auto">
+        <div class="text-center mb-16">
+            <h1 class="text-green-800 text-4xl font-black">All In One Box</h1>
+            <h5 class="mt-2 text-xl font-normal text-gray-600 tracking-wider">
+                Explore our various curated just for you
+            </h5>
         </div>
 
 
-        <div class="grid grid-cols-1  md:grid-cols-4 gap-6 place-content-center mt-12 text-center">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6 place-content-center text-center">
             
             <article class="feature group relative text-center overflow-hidden shadow">
                 <img

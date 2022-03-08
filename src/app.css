@@ -2,24 +2,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*,
+html,
 body {
-  overflow-x: hidden;
-  font-family: 'Work Sans', sans-serif;
+	font-family: 'Work Sans', sans-serif;
+}
+body {
+	overflow-x: hidden;
 }
 
 input[type='number']::-webkit-inner-spin-button,
 input[type='number']::-webkit-outer-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+	-webkit-appearance: none;
+	margin: 0;
 }
 
 .custom-number-input input:focus {
-  outline: none !important;
+	outline: none !important;
 }
 
 .custom-number-input button:focus {
-  outline: none !important;
+	outline: none !important;
 }
 
 .likes__icon {
@@ -29,22 +33,27 @@ input[type='number']::-webkit-outer-spin-button {
 }
 
 .slide-bck-left {
-	-webkit-animation:slide-bck-left .60s ease-in-out infinite alternate both;
-	animation:slide-bck-left .45s ease-in-out infinite alternate both
+	-webkit-animation: slide-bck-left 0.6s ease-in-out infinite alternate both;
+	animation: slide-bck-left 0.45s ease-in-out infinite alternate both;
 }
 
-	@-webkit-keyframes slide-bck-left{
-		0% {
-			-webkit-transform:translateZ(0) translateX(0);
-			transform:translateZ(0) translateX(0)}
-		100% {
-			-webkit-transform:translateZ(-0px) translateX(-50px);
-			transform:translateZ(-50px) translateX(-50px)}}
-		@keyframes slide-bck-left{
-			0%{
-			-webkit-transform:translateZ(0) translateX(0);transform:translateZ(0) translateX(0)}
-			100%{
-				-webkit-transform:translateZ(-0px) translateX(-30px);
-				transform:translateZ(-10px) translateX(-10px)
-			}
-		}
+@-webkit-keyframes slide-bck-left {
+	0% {
+		-webkit-transform: translateZ(0) translateX(0);
+		transform: translateZ(0) translateX(0);
+	}
+	100% {
+		-webkit-transform: translateZ(-0px) translateX(-50px);
+		transform: translateZ(-50px) translateX(-50px);
+	}
+}
+@keyframes slide-bck-left {
+	0% {
+		-webkit-transform: translateZ(0) translateX(0);
+		transform: translateZ(0) translateX(0);
+	}
+	100% {
+		-webkit-transform: translateZ(-0px) translateX(-30px);
+		transform: translateZ(-10px) translateX(-10px);
+	}
+}
